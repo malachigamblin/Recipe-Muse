@@ -25,15 +25,15 @@ $.ajax({
   success: function (result) {
     console.log(result);
     var randomIndex;
-if (result.jokes && result.jokes.length > 0) {
-  randomIndex = Math.floor(Math.random() * result.jokes.length);
-  quotes.text(result.jokes[randomIndex].joke);
-} else {
-  randomIndex = Math.floor(Math.random() * jokes.length);
-  quotes.text(jokes[randomIndex].joke);
-}
+    if (result.jokes && result.jokes.length > 0) {
+      randomIndex = Math.floor(Math.random() * result.jokes.length);
+      quotes.text(result.jokes[randomIndex].joke);
+    } else {
+      randomIndex = Math.floor(Math.random() * jokes.length);
+      quotes.text(jokes[randomIndex].joke);
+    }
   },
   error: function ajaxError(jqXHR) {
     console.error("Error: ", jqXHR.responseText);
   },
-
+});
