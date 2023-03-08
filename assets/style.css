@@ -1,6 +1,7 @@
 body {
     background-color: rgb(17, 159, 225);
     color: white;
+    font-family: Lato;
 }
 
 h1, h2, h3 {
@@ -9,6 +10,11 @@ h1, h2, h3 {
 
 h1, h2 {
   color: black;
+}
+
+h1 {
+  font-family: Berkshire Swash;
+  font-size: 135px;
 }
 
   .container {
