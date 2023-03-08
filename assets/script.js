@@ -36,4 +36,4 @@ if (result.jokes && result.jokes.length > 0) {
   error: function ajaxError(jqXHR) {
     console.error("Error: ", jqXHR.responseText);
   },
-});
+
