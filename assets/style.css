@@ -4,7 +4,6 @@ body {
   font-family: Lato;
 }
 
-
 h2,
 h3 {
   text-align: center;
@@ -35,8 +34,6 @@ h2 {
   font-size: 30px;
 }
 
-
-
 .gradient {
   background-image: linear-gradient(#fff95b, #ff930f);
   background-size: 100%;
@@ -44,7 +41,6 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .container {
   display: flex;
@@ -88,4 +84,53 @@ button {
   color: white;
   font-size: 16px;
   cursor: pointer;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result-item {
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  overflow: hidden;
+}
+
+.result-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container h3 {
+  margin-top: 0;
+}
+
+.text-container p {
+  margin: 10px 0;
+}
+
+.text-container a {
+  display: block;
+  margin-top: 10px;
+}
+
+.src {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
