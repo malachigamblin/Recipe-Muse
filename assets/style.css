@@ -1,33 +1,50 @@
 body {
-  background-color: rgb(17, 159, 225);
-  color: white;
-    font-family: Lato;
+  background-color: white;
+  color: black;
+  font-family: Lato;
 }
 
-h1,
+
 h2,
 h3 {
   text-align: center;
 }
 
-h1,
-h2 {
-  color: black;
-}
-
 h1 {
   font-family: Berkshire Swash;
-  font-size: 120px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
 }
 
+header {
+  background-image: url(./images/sad-kitchen.jpeg);
+  padding: 10%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+h2 {
+  /* display: flex;
+  justify-content: center;
+  border: solid;
+  border-radius: 25px;
+  padding: 5% 2% 5% 2%; */
+  font-size: 30px;
+}
+
+
+
 .gradient {
-  background-image: linear-gradient(#86afd2,#00ffa6);
-  background-size: 100%
+  background-image: linear-gradient(#fff95b, #ff930f);
+  background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- }
- 
+}
+
 
 .container {
   display: flex;
@@ -71,15 +88,4 @@ button {
   color: white;
   font-size: 16px;
   cursor: pointer;
-}
-
-/* Jaimes work */
-.circleImgs {
-  display: flex;
-  justify-content: center;
-}
-
-img {
-  border-radius: 50%;
-  padding: 20px;
 }
