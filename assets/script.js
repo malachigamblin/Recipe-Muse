@@ -37,3 +37,58 @@ $.ajax({
     console.error("Error: ", jqXHR.responseText);
   },
 });
+
+const outputDiv = document.getElementById("output");
+
+function getsource(id) {
+  $.ajax({
+    url:
+      "https://api.spoonacular.com/recipes/" +
+      id +
+      "/information?apiKey=483c3bf2db9040a797f611438a378565",
+    success: function (res) {
+      let meal = document.createElement("a");
+      meal.id = "meal" + id;
+      meal.innerHTML = res.sourceUrl;
+      meal.href = res.sourceUrl;
+      let resultDiv = document.getElementById(id);
+      resultDiv.appendChild(meal);
+    },
+  });
+}
+
+function getmeal(q) {
+  $.ajax({
+    url:
+      "https://api.spoonacular.com/recipes/search?apiKey=483c3bf2db9040a797f611438a378565&number=5&query=" +
+      q,
+    success: function (res) {
+      outputDiv.innerHTML = '';
+      const resultsContainer = document.createElement("div");
+      resultsContainer.classList.add("results-container");
+      outputDiv.appendChild(resultsContainer);
+
+      for (var i = 0; i < 4; i++) {
+        let resultDiv = document.createElement("div");
+        resultDiv.id = res.results[i].id;
+        resultDiv.classList.add("result-item");
+        resultDiv.innerHTML +=
+          "<div class='image-container'><img src='" +
+          res.baseUri +
+          res.results[i].image +
+          "' class='result-image' /></div>" +
+          "<div class='text-container'>" +
+          "<h3>" +
+          res.results[i].title +
+          "</h3><p>Ready in " +
+          res.results[i].readyInMinutes +
+          " minutes</p>" +
+          "<a href='" +
+          res.results[i].sourceUrl +
+          "' target='_blank'>View Recipe</a>" +
+          "</div>";
+        resultsContainer.appendChild(resultDiv);
+      }
+    },
+  });
+}
