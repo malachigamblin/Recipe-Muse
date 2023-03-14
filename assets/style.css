@@ -7,8 +7,8 @@ body {
 
 header {
   background-image: url(./images/sad-kitchen.jpeg);
-  width: 80%;
-  height: 300px;
+  width: 100%;
+  height: 400px;
   padding: 10%;
   background-position: center;
   background-size: cover;
