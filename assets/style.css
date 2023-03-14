@@ -134,21 +134,36 @@ input[type="text"] {
     background-image: url(./images/sad-kitchen.jpeg);
   }
 
-  h1 {
+  .hOne {
     font-size: 100px;
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: 100px;
+    left: 10%;
   }
 
-  h2 {
-    color: red;
+  .hTwo {
+    color: white;
+    font-size: 30px;
   }
 }
 
 
 @media screen and (max-width: 768px) {
+  .hOne {
+    font-family: Berkshire Swash;
+    font-size: 70px;
+    position: absolute;
+    top: 120px;
+    left: 10%;
+  }
 
-  h2 {
-    color: blue;
+  .hTwo {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 5px black;
   }
 }
