@@ -75,17 +75,17 @@ var searchHistory = '';
 if (localStorage.getItem("search")) {searchHistory = localStorage.getItem("search");}
 var searchList = document.getElementById("search-list");
 function displaySearchHistory(history) {
-   for (var i=0; i<=history.length -1; i++) {
-    var searchElement = document.createElement("span");
+   for (var i=0; i<=history.length-1; i++) {
+    var searchElement = document.createElement("a");
     searchElement.textContent = history[i];
     searchList.append(searchElement);
    }
 }
 function getmeal(q) {
-  searchHistory = searchHistory + q +',';
+  searchHistory = searchHistory + q + ",";
   localStorage.setItem("search", searchHistory);
   searchHistory = localStorage.getItem("search");
-  searchHistory = searchHistory.split(',');
+  searchHistory = searchHistory.split();
  // console.log(searchHistory);
   displaySearchHistory(searchHistory);
   $.ajax({
