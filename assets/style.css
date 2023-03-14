@@ -158,28 +158,17 @@ a:hover {
   header {
     background-image: url(./images/sad-kitchen.jpeg);
   }
-
   .hOne {
     font-size: 100px;
-
     position: absolute;
     top: 100px;
     left: 10%;
   }
-
   .hTwo {
     color: white;
     font-size: 30px;
-    position: relative;
-    top: -20%;
-  }
-
-  h2 {
-    color: rgb(255, 255, 255);
   }
 }
-
-
 @media screen and (max-width: 768px) {
   .hOne {
     font-family: Berkshire Swash;
@@ -188,7 +177,6 @@ a:hover {
     top: 120px;
     left: 10%;
   }
-
   .hTwo {
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -197,9 +185,5 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 1px 1px 5px black;
-
-  h2 {
-    color: rgb(255, 255, 255);
-
   }
 }
