@@ -129,6 +129,31 @@ input[type="text"] {
   align-items: center;
 }
 
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  display: contents;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.336);
+  text-decoration: underline; 
+}
+
 @media screen and (max-width: 980px) {
   header {
     background-image: url(./images/sad-kitchen.jpeg);
@@ -137,11 +162,11 @@ input[type="text"] {
   h1 {
     font-size: 100px;
     position: relative;
-    top: 0px;
+    top: -20%;
   }
 
   h2 {
-    color: red;
+    color: rgb(255, 255, 255);
   }
 }
 
@@ -149,6 +174,6 @@ input[type="text"] {
 @media screen and (max-width: 768px) {
 
   h2 {
-    color: blue;
+    color: rgb(255, 255, 255);
   }
 }
