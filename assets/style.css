@@ -1,40 +1,65 @@
 body {
-    background-color: rgb(17, 159, 225);
-    color: white;
-}
-
-h1, h2, h3 {
-    text-align: center;
-  }
-
-h1, h2 {
+  background-color: white;
   color: black;
+  font-family: Lato;
 }
 
-  .container {
+
+header {
+  background-image: url(./images/sad-kitchen.jpeg);
+  width: 100%;
+  height: 595px;
+  padding: 10%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.hOne {
+  font-family: Berkshire Swash;
+  font-size: 130px;
+  position: absolute;
+  top: 0px;
+  left: 15%;
+}
+
+
+.hTwo {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 310px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 2px black;
+}
+
+.hThree {
+  text-align: center;
+  font-size: 25px;
+}
+
+.gradient {
+  background-image: linear-gradient(#dad426, #ff930f);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.box-row {
-  display: flex;
-  justify-content: center;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  color: white;
-  background-color: rgb(0, 0, 0);
-  text-align: center;
 }
 
 .search {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  font-size: 50px;
 }
 
 input[type="text"] {
@@ -45,7 +70,7 @@ input[type="text"] {
   width: 200px;
 }
 
-button {
+/* button {
   padding: 10px;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -53,4 +78,77 @@ button {
   color: white;
   font-size: 16px;
   cursor: pointer;
+} */
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result-item {
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  overflow: hidden;
+}
+
+.result-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container h3 {
+  margin-top: 0;
+}
+
+.text-container p {
+  margin: 10px 0;
+}
+
+.text-container a {
+  display: block;
+  margin-top: 10px;
+}
+
+.src {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    background-image: url(./images/sad-kitchen.jpeg);
+  }
+
+  h1 {
+    font-size: 100px;
+    position: relative;
+    top: 0px;
+  }
+
+  h2 {
+    color: red;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  h2 {
+    color: blue;
+  }
 }
