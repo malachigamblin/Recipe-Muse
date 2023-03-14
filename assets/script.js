@@ -16,6 +16,7 @@ var jokes = [
   },
 ];
 
+//dad jokes
 var limit = 8;
 $.ajax({
   method: "GET",
