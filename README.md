@@ -42,7 +42,7 @@ If you followed tutorials, include links to those here as well.
 
 MIT License
 
-Copyright (c) [2023] [fullname]
+Copyright (c) [2023] [Catherine Sinkowski]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
