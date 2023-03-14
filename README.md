@@ -2,80 +2,45 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-MIT License
-
-Copyright (c) [2023] [Catherine Sinkowski]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+This coding project utilizes the Spoonacular API to provide users with a simple and efficient way to search for recipes. In addition to the recipe search feature, the page also loads a random dad joke based on the Dad Jokes API to add a touch of humor to the user's experience. With clear and concise search results that include recipe images and links, users can easily find and prepare their desired meals.
 
 ## Features
 
-If your project has a lot of features, list them here.
+• Two distinct APIs (Spoonacular & Dad Jokes API) are employed to retrieve recipe and dad jokes.
 
-## How to Contribute
+• To store search history, localStorage is used, and if any prior search history exists in local storage, it is displayed when the website first loads.
 
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+• Users have the option to search for a recipe using the search bar or clicking on a button for a previously searched meals to obtain a recipe.
 
-## Tests
+• Bulma is utilized for styling and creating new components.
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+• The UI is clean and straightforward, with a mobile-first design.
+
+## Tools Used:
+HTML
+CSS
+JavaScript
+Bulma
+localStorage
+AJAX
+Berkshire Swash Fonts
+Google Fonts
+Lato Fonts
+Spoolancular API
+Dad Jokes API
+ 
+## Usage
+
+Recipe Muse is an application that utilizes the Spoonacular and Dad Jokes APIs to enhance the user experience. The page loads with a random dad joke about food, followed by an interactive search bar that enables users to easily search for any desired recipe. After entering a recipe name in the search bar, the page displays four recipes with pictures, preparation time, and a link to the recipe. Users can enjoy their search for recipes while also enjoying random dad jokes that brighten up their day. In addition, users can revisit their previous searches for easy access to recipes. With its simple design and easy-to-use interface, Recipe Muse is the perfect tool for anyone looking to find recipes and have a few laughs.
+
+## Screenshot:
+<img width="1507" alt="Screenshot 2023-03-14 at 6 29 51 PM" src="https://user-images.githubusercontent.com/118701306/225156686-dc4ca0bd-31c8-4565-a7e1-9cfe7fffa966.png">
+
+<img width="1507" alt="Screenshot 2023-03-14 at 6 29 58 PM" src="https://user-images.githubusercontent.com/118701306/225156753-efd9dfbf-a2e4-44b9-a6a3-c6eb7ad99957.png">
+
+## Links
+
+Deployed application: https://malachigamblin.github.io/Interactive-Front-End-Application/
+
+## Collaborators:
+https://github.com/CatSink, https://github.com/Christianmsm, https://github.com/Conejochato1, https://github.com/jaimemarsh, https://github.com/PmColdwell 
