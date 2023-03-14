@@ -28,7 +28,7 @@ h2 {
 }
 
 .gradient {
-  background-image: linear-gradient(#fff95b, #ff930f);
+  background-image: linear-gradient(#dad426, #ff930f);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
