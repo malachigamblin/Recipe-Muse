@@ -14,10 +14,24 @@ var jokes = [
   {
     joke: "What did the pepperoni say walking out of the hospital? I am cured!",
   },
+  { joke: "Why did the Oreo go to the dentist? It lost its filling." },
+  { joke: "What do you call a cow with no legs? Ground beef." },
+  {
+    joke: "I used to run a dating service for chickens, but I was struggling to make hens meet.",
+  },
+  { joke: "Where do you learn to make ice cream? Sundae school." },
+  {
+    joke: "I always knock on the fridge door before opening it, just in case there's a salad dressing.",
+  },
+  { joke: "Did you hear about the hungry clock. It went back four seconds." },
+  { joke: "What kind of cereal do leprechauns eat? Lucky Charms." },
+  {
+    joke: "“My extra winter weight is finally gone. Now, I have spring rolls.”",
+  },
 ];
 
 //dad jokes
-var limit = 8;
+var limit = 16;
 $.ajax({
   method: "GET",
   url: "https://api.api-ninjas.com/v1/dadjokes?limit=" + limit,
@@ -64,7 +78,7 @@ function getmeal(q) {
       "https://api.spoonacular.com/recipes/search?apiKey=483c3bf2db9040a797f611438a378565&number=5&query=" +
       q,
     success: function (res) {
-      outputDiv.innerHTML = '';
+      outputDiv.innerHTML = "";
       const resultsContainer = document.createElement("div");
       resultsContainer.classList.add("results-container");
       outputDiv.appendChild(resultsContainer);
@@ -93,3 +107,4 @@ function getmeal(q) {
     },
   });
 }
+
