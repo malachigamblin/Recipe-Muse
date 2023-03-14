@@ -74,19 +74,38 @@ function getsource(id) {
 var searchHistory = '';
 if (localStorage.getItem("search")) {searchHistory = localStorage.getItem("search");}
 var searchList = document.getElementById("search-list");
+
 function displaySearchHistory(history) {
+<<<<<<< HEAD
    for (var i=0; i<=history.length-1; i++) {
     var searchElement = document.createElement("a");
     searchElement.textContent = history[i];
     searchList.append(searchElement);
    }
+=======
+  searchList.innerHTML = ""; 
+  var uniqueHistory = Array.from(new Set(history)); 
+  for (var i=0; i < uniqueHistory.length; i++) {
+   var searchElement = document.createElement("button");
+   searchElement.textContent = uniqueHistory[i];
+   searchElement.addEventListener("click", function() {
+     getmeal(this.textContent);
+   });
+   searchList.appendChild(searchElement);
+  }
+>>>>>>> 24af22c4d792f3ffd5f757ece2c824b12b80e3e5
 }
+
 function getmeal(q) {
   searchHistory = searchHistory + q + ",";
   localStorage.setItem("search", searchHistory);
   searchHistory = localStorage.getItem("search");
+<<<<<<< HEAD
   searchHistory = searchHistory.split();
  // console.log(searchHistory);
+=======
+  searchHistory = searchHistory.split(',');
+>>>>>>> 24af22c4d792f3ffd5f757ece2c824b12b80e3e5
   displaySearchHistory(searchHistory);
   $.ajax({
     url:
