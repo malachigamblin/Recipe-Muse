@@ -13,21 +13,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Recipe Muse</title>
 </head>
 
 <body>
     <header>
-        <h1 class="gradient">Recipe Muse</h1>
-        <h2 id="quotes"></h2>
+        <h1 class="gradient hOne">Recipe Muse</h1>
+        <h2 id="quotes" class="hTwo"></h2>
     </header>
 
-    <h3>
+    <h3 class="hThree">
         Search for new inspiring reciepes:
     </h3>
     <div class="src">
         <input id="search" placeholder="Find a Meal!" />
-        <button onclick="getmeal(document.getElementById('search').value)">
+        <button onclick="getmeal(document.getElementById('search').value)" class="button is-primary is-small">
             Search
         </button>
     </div>
