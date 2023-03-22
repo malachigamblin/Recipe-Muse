@@ -16,7 +16,8 @@ This coding project utilizes the Spoonacular API to provide users with a simple 
 
 • The UI is clean and straightforward, with a mobile-first design.
 
-## Tools Used:
+## Tools Used
+
 HTML
 CSS
 JavaScript
@@ -33,14 +34,14 @@ Dad Jokes API
 
 Recipe Muse is an application that utilizes the Spoonacular and Dad Jokes APIs to enhance the user experience. The page loads with a random dad joke about food, followed by an interactive search bar that enables users to easily search for any desired recipe. After entering a recipe name in the search bar, the page displays four recipes with pictures, preparation time, and a link to the recipe. Users can enjoy their search for recipes while also enjoying random dad jokes that brighten up their day. In addition, users can revisit their previous searches for easy access to recipes. With its simple design and easy-to-use interface, Recipe Muse is the perfect tool for anyone looking to find recipes and have a few laughs.
 
-## Screenshot:
+## Screenshots
 
-<img width="1507" alt="Screenshot 2023-03-22 at 5 44 52 PM" src="https://user-images.githubusercontent.com/118701306/227045794-15805638-b9e6-43c3-8c60-74e5232f9ccf.png">
-<img width="1507" alt="Screenshot 2023-03-22 at 5 45 01 PM" src="https://user-images.githubusercontent.com/118701306/227045711-2c25d230-e28d-4ac7-af0b-d1c4f461f2bc.png">
+<img width="1507" alt="Screenshot 2023-03-22 at 5 44 52 PM" src="https://user-images.githubusercontent.com/118701306/227048583-ab4cac44-7562-4058-a2a1-60e8753cddae.png">
+<img width="1507" alt="Screenshot 2023-03-22 at 5 45 01 PM" src="https://user-images.githubusercontent.com/118701306/227048633-5972619c-b9d1-4e73-a20a-c8bfc2d357d7.png">
 
-## Links
+## Link
 
-Deployed application: https://malachigamblin.github.io/Interactive-Front-End-Application/
+Deployed application: https://malachigamblin.github.io/Recipe-Muse/
 
-## Collaborators:
-https://github.com/CatSink, https://github.com/Christianmsm, https://github.com/Conejochato1, https://github.com/jaimemarsh, https://github.com/PmColdwell 
+## Collaborators
+https://github.com/CatSink, https://github.com/Christianmsm, https://github.com/Conejochato1, https://github.com/jaimemarsh, https://github.com/PmColdwell, https://github.com/NathanDugue
