@@ -34,8 +34,9 @@ Dad Jokes API
 Recipe Muse is an application that utilizes the Spoonacular and Dad Jokes APIs to enhance the user experience. The page loads with a random dad joke about food, followed by an interactive search bar that enables users to easily search for any desired recipe. After entering a recipe name in the search bar, the page displays four recipes with pictures, preparation time, and a link to the recipe. Users can enjoy their search for recipes while also enjoying random dad jokes that brighten up their day. In addition, users can revisit their previous searches for easy access to recipes. With its simple design and easy-to-use interface, Recipe Muse is the perfect tool for anyone looking to find recipes and have a few laughs.
 
 ## Screenshot:
-<img width="1507" alt="Screenshot 2023-03-22 at 5 39 32 PM" src="https://user-images.githubusercontent.com/118701306/227044716-578535d8-23f7-43e0-a575-14f0ac9e2592.png">
-<img width="1507" alt="Screenshot 2023-03-22 at 5 39 36 PM" src="https://user-images.githubusercontent.com/118701306/227044736-9f444d74-e616-4a76-a828-24049125504b.png">
+
+<img width="1507" alt="Screenshot 2023-03-22 at 5 44 52 PM" src="https://user-images.githubusercontent.com/118701306/227045794-15805638-b9e6-43c3-8c60-74e5232f9ccf.png">
+<img width="1507" alt="Screenshot 2023-03-22 at 5 45 01 PM" src="https://user-images.githubusercontent.com/118701306/227045711-2c25d230-e28d-4ac7-af0b-d1c4f461f2bc.png">
 
 ## Links
 
