@@ -40,6 +40,4 @@ Recipe Muse is an application that utilizes the Spoonacular and Dad Jokes APIs t
 ## Links
 
 Deployed application: https://malachigamblin.github.io/Interactive-Front-End-Application/
-
-## Collaborators:
-https://github.com/CatSink, https://github.com/Christianmsm, https://github.com/Conejochato1, https://github.com/jaimemarsh, https://github.com/PmColdwell 
+## Collaborators: https://github.com/CatSink, https://github.com/Christianmsm, https://github.com/Conejochato1, https://github.com/jaimemarsh, https://github.com/PmColdwell, https://github.com/NathanDugue
