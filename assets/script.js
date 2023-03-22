@@ -76,15 +76,16 @@ if (localStorage.getItem("search")) {searchHistory = localStorage.getItem("searc
 var searchList = document.getElementById("search-list");
 
 function displaySearchHistory(history) {
-  searchList.innerHTML = ""; 
-  var uniqueHistory = Array.from(new Set(history)); 
-  for (var i=0; i < uniqueHistory.length; i++) {
-   var searchElement = document.createElement("button");
-   searchElement.textContent = uniqueHistory[i];
-   searchElement.addEventListener("click", function() {
-     getmeal(this.textContent);
-   });
-   searchList.appendChild(searchElement);
+  searchList.innerHTML = "";
+  var uniqueHistory = Array.from(new Set(history));
+  uniqueHistory = uniqueHistory.filter(Boolean); 
+  for (var i = 0; i < uniqueHistory.length; i++) {
+    var searchElement = document.createElement("button");
+    searchElement.textContent = uniqueHistory[i];
+    searchElement.addEventListener("click", function () {
+      getmeal(this.textContent);
+    });
+    searchList.appendChild(searchElement);
   }
 }
 
