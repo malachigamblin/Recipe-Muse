@@ -4,7 +4,6 @@ body {
   font-family: Lato;
 }
 
-
 header {
   background-image: url(./images/sad-kitchen.jpeg);
   width: 100%;
@@ -16,7 +15,6 @@ header {
   position: relative;
 }
 
-
 .hOne {
   font-family: Berkshire Swash;
   font-size: 130px;
@@ -24,7 +22,6 @@ header {
   top: 0px;
   left: 15%;
 }
-
 
 .hTwo {
   font-size: 30px;
@@ -141,8 +138,13 @@ a:visited {
 
 a:hover {
   color: rgba(0, 0, 0, 0.336);
-  text-decoration: underline; 
+  text-decoration: underline;
 }
+
+#search-list button {
+  margin-right: 5px;
+}
+
 
 @media screen and (max-width: 980px) {
   header {
