@@ -18,17 +18,17 @@ This coding project utilizes the Spoonacular API to provide users with a simple 
 
 ## Tools Used
 
-HTML
-CSS
-JavaScript
-Bulma
-localStorage
-AJAX
-Berkshire Swash Fonts
-Google Fonts
-Lato Fonts
-Spoolancular API
-Dad Jokes API
+• HTML
+• CSS
+• JavaScript
+• Bulma
+• localStorage
+• AJAX
+• Berkshire Swash Fonts
+• Google Fonts
+• Lato Fonts
+• Spoolancular API
+• Dad Jokes API
  
 ## Usage
 
